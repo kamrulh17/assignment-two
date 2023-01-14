@@ -1,0 +1,32 @@
+
+/* ================================================== 
+                importing google fonts
+==================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif ;
+}
+
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    margin: 0 200px;
+}
+
+/* h1{
+    color: #131313;
+    color: #FF900E;
+    color: #727272;
+} */
