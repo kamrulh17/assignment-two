@@ -18,6 +18,7 @@ ul li{
 }
 
 a{
+    display: inline-block;
     text-decoration: none;
 }
 
@@ -30,3 +31,113 @@ a{
     color: #FF900E;
     color: #727272;
 } */
+
+
+/* ================================================== 
+                header css
+==================================================== */
+.header{
+    /* height: 80vh; */
+    padding-top: 30px;
+    background-color: #FFF4E7;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a{
+    font-size: 36px;
+    font-weight: 700;
+    color: #131313;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+nav ul li{
+    margin-left: 30px;
+}
+
+nav ul li a{
+    color: #424242 ;
+    font-size: 18px ;
+    font-weight: 600;
+}
+
+nav ul li a:hover{
+    color: #FF900E;
+}
+
+.banner{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1{
+    margin-top: 100px;
+    font-size: 64px;
+    font-weight: 700;
+    color: #131313;
+}
+
+.banner p{
+    font-size: 16px;
+    color: #727272;
+    margin: 20px 0;
+}
+
+.explore-btn{
+    margin-top: 30px;
+    padding: 15px 30px;
+    border-radius: 3px;
+    font-size: 18px;
+    background-color: #FF900E;
+    color: #ffffff;
+}
+.explore-btn:hover{
+    background-color: #131313;
+    color: #ffffff;
+}
+
+.header .container>img{
+   width: 100%;
+   margin: 50px 0;
+}
+
+/* ================================================== 
+                gallery css
+==================================================== */
+
+.gallery{
+    margin: 100px 0;
+    display: flex;
+    align-items: center;
+}
+
+.gallery-images{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.gallery .section-title{
+    margin: 30px 0;
+    font-size: 45px;
+    color: #131313;
+}
+
+.gallery .section-title span:first-child{
+    color: #727272;
+    font-weight: 500;
+}
+.gallery .section-title span:last-child{
+    color: #FF900E;
+}
+.quick-list{
+    margin-left: 50px;
+}
