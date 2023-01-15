@@ -25,19 +25,21 @@ a{
 .container{
     margin: 0 200px;
 }
-
-/* h1{
+h2{
+    font-size: 45px;
+    font-weight: 700;
     color: #131313;
-    color: #FF900E;
+}
+p{
+    font-size: 18px;
     color: #727272;
-} */
+}
 
 
 /* ================================================== 
                 header css
 ==================================================== */
 .header{
-    /* height: 80vh; */
     padding-top: 30px;
     background-color: #FFF4E7;
 }
@@ -74,7 +76,7 @@ nav ul li a:hover{
 }
 
 .banner{
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
     text-align: center;
 }
@@ -87,8 +89,6 @@ h1{
 }
 
 .banner p{
-    font-size: 16px;
-    color: #727272;
     margin: 20px 0;
 }
 
@@ -140,4 +140,141 @@ h1{
 }
 .quick-list{
     margin-left: 50px;
+}
+
+/* ================================================== 
+                features css
+==================================================== */
+
+.features{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    margin-bottom: 50px;
+}
+.feature-items, .feature-image{       
+    width: 50%;
+}
+.feature-items h2{
+    width: 80%;
+    margin: 20px 0 20px;
+    padding-left: 30px;
+    border-left: 5px solid #FF900E;
+}
+
+.feature-image img{
+    width: 100%;
+}
+
+.feature-items .section-description{
+    margin: 30px 0;
+    text-decoration-style: 16px;
+    color: #727272  ;
+}
+
+.feature-item{
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 30px 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.feature-item h3{
+    font-size: 22px;
+    font-weight: 700;
+    color: #131313;
+    margin-bottom: 15px;
+}
+
+.feature-image{
+    position: relative;
+}
+#experience{
+    position: absolute;
+    left: -35px;
+    top: 85%;
+
+    width: 40%;
+    padding: 40px 30px;
+    text-align: center;
+    background-color: #FF900E;
+    border-radius: 10px;
+}
+
+#experience h2, #experience p{
+    color: #ffffff;
+}
+
+/* ================================================== 
+                facts css
+==================================================== */
+.facts h2{
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+}
+
+.facts p{
+    width: 50%;
+    margin: 20px 0;
+}
+
+.facts-items{
+    margin-top: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.fact-item{
+    padding: 30px;
+    text-align: center;
+    border: 1px solid #FF900E;
+    border-radius: 10px;
+}
+.fact-item img{
+    max-width: 100%;
+}
+.fact-item p{
+    margin: 0;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+}
+.fact-item h3{
+    margin: 15px 0;
+    font-size: 40px;
+}
+
+/* ================================================== 
+                sponsor section css
+==================================================== */
+
+.sponsors{
+    text-align: center;
+    margin: 80px 0;
+}
+
+.sponsors p{
+    width: 50%;
+    margin: 20px auto;
+}
+
+.sponsor-items{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sponsor-items a img{
+    max-width: 70%;
+    filter: grayscale(100%);
+}
+
+/* ================================================== 
+                footer css
+==================================================== */
+footer{
+    text-align: center;
+    padding: 30px 0;
+    background-color: #f7e6d2;
 }
