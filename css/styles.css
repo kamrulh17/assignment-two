@@ -125,6 +125,7 @@ h1{
     width: 50%;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 20px;
 }
 .quick-list{
     width: 50%;
