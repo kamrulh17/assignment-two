@@ -230,6 +230,15 @@ h1{
     text-align: center;
     border: 1px solid #FF900E;
     border-radius: 10px;
+    transition: all .3s linear;
+}
+.fact-item:hover{
+    transform: scale(1.1);
+    background-color: #FF900E;
+    color: #f7e6d2;
+}
+.fact-item:hover.fact-item p{
+    color: #f7e6d2;
 }
 .fact-item img{
     max-width: 100%;
@@ -335,4 +344,128 @@ footer{
     text-align: center;
     padding: 30px 0;
     background-color: #f7e6d2;
+}
+
+/* ================================================== 
+                responsive css
+==================================================== */
+
+@media screen and (max-width: 480px){
+    .container{
+        margin: 0 10px;
+    }
+    .logo{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .banner{
+        width: 100%;
+    }
+    h1{
+        font-size: 32px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    .nav{
+        display: block;
+    }
+    nav ul{
+        width: 100%;
+        justify-content: space-between;
+    }
+    nav ul li{
+        margin: 0 5px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+
+    /* ===== gallery ===== */
+    .gallery{
+        display: block;
+    }
+    .gallery-images{
+        grid-template-columns: 1fr;
+    }
+    .gallery-images img{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .quick-list{
+        margin: 0;
+    }
+
+    .features{
+        display: block;
+    }
+    .feature-items h2{
+        width: 100%;
+        font-size: 32px;
+        padding-left: 15px;
+    }
+    .feature-items, .feature-image{
+        width: 100%;
+    }
+
+    #experience {
+        left: 50%;
+        transform: translate(-50%,0);
+        top: 85%;
+        width: 60%;
+        margin: 0 auto;
+        padding: 30px;
+    }
+    #experience h2{
+        font-size: 32px;
+    }
+
+
+
+    .facts{
+        margin-top: 100px;
+    }
+    .facts p{
+        width: 100%;
+    }
+    .facts-items{
+        display: block;
+    }
+    .fact-item{
+        margin: 15px 0;
+    }
+
+    .sponsors p{
+        width: 100%;
+    }
+    .sponsor-items a img{
+        max-width: 60%;
+    }
+
+    .contacts{
+        width: 100%;
+    }
+    .form-title{
+        width: 100%;
+    }
+    footer p{
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width: 576px){
+
+}
+
+@media screen and (max-width: 768px){
+
+}
+
+@media screen and (max-width: 992px){
+
+}
+
+@media screen and (max-width: 1024px){
+
 }
