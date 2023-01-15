@@ -395,7 +395,6 @@ footer{
     .quick-list{
         margin: 0;
     }
-
     .features{
         display: block;
     }
@@ -432,7 +431,11 @@ footer{
         display: block;
     }
     .fact-item{
-        margin: 15px 0;
+        width: 75%;
+        margin: 20px auto ;
+    }
+    .fact-item:hover{
+        transform: scale(1.05);
     }
 
     .sponsors p{
