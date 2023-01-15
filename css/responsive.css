@@ -2,7 +2,9 @@
 /* ================================================== 
                 responsive css
 ==================================================== */
+@media screen and (max-width: 576px){
 
+}
 @media screen and (max-width: 480px){
     .container{
         margin: 0 10px;
@@ -52,7 +54,7 @@
         display: block;
     }
     .feature-items h2{
-        width: 100%;
+        width: auto;
         font-size: 32px;
         padding-left: 15px;
     }
