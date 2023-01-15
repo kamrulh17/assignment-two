@@ -4,28 +4,33 @@
 ==================================================== */
 
 @media screen and (max-width: 576px){
+    h1{
+        font-size: 32px;
+    }
+    h2{
+        font-size: 30px;
+    }
     .container{
         margin: 0 10px;
+    }
+    .banner{
+        width: 100%;
     }
     .logo{
         text-align: center;
         margin-bottom: 10px;
     }
-    h1{
-        font-size: 32px;
-    }
-    h2{
-        font-size: 40px;
-    }
     .nav{
         display: block;
     }
     nav ul{
+        display: block;
+        text-align: center;
         width: 100%;
         justify-content: space-between;
     }
     nav ul li{
-        margin: 0 5px;
+        margin: 15px 10px;
     }
     nav ul li a{
         font-size: 16px;
@@ -106,12 +111,21 @@
 }
 
 @media screen and (max-width: 480px){
+    .logo a{
+        font-size: 30px;
+    }
+    .gallery .section-title{
+        font-size: 32px;
+    }
     .gallery-images img{
         max-width: 90%;
         margin: 0 auto;
     }
     .sponsor-items{
         display: block;
+    }
+    .facts h2{
+        font-size: 32px;
     }
     .sponsor-items a{
         text-align: center;
