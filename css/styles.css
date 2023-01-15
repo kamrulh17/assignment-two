@@ -122,9 +122,17 @@ h1{
 }
 
 .gallery-images{
+    width: 50%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
+}
+.quick-list{
+    width: 50%;
+    margin-left: 50px;
+}
+
+.gallery-images img{
+    width: 100%;
 }
 .gallery .section-title{
     margin: 30px 0;
@@ -138,9 +146,6 @@ h1{
 }
 .gallery .section-title span:last-child{
     color: #FF900E;
-}
-.quick-list{
-    margin-left: 50px;
 }
 
 /* ================================================== 
@@ -194,8 +199,7 @@ h1{
     position: absolute;
     left: -35px;
     top: 85%;
-
-    width: 40%;
+    width: 60%;
     padding: 40px 30px;
     text-align: center;
     background-color: #FF900E;
@@ -227,6 +231,7 @@ h1{
    justify-content: space-between;
 }
 .fact-item{
+    margin: 0 15px;
     padding: 30px;
     text-align: center;
     border: 1px solid #FF900E;
@@ -265,7 +270,7 @@ h1{
 }
 
 .sponsors p{
-    width: 50%;
+    width: 75%;
     margin: 20px auto;
 }
 
@@ -289,7 +294,7 @@ h1{
     margin: 80px auto;
 }
 .form-title{
-    width: 75%;
+    width: 90%;
     margin: 0 auto;
     text-align: center;
 }
